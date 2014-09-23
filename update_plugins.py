@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import zipfile
 import shutil
 import tempfile
@@ -29,6 +30,7 @@ syntastic https://github.com/scrooloose/syntastic
 taglist.vim https://github.com/vim-scripts/taglist.vim
 tlib https://github.com/vim-scripts/tlib
 vim-addon-mw-utils https://github.com/MarcWeber/vim-addon-mw-utils
+vim-gitgutter https://github.com/airblade/vim-gitgutter
 vim-indent-object https://github.com/michaeljsmith/vim-indent-object
 vim-less https://github.com/groenewege/vim-less
 vim-markdown https://github.com/tpope/vim-markdown
