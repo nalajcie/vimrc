@@ -15,8 +15,17 @@ let g:airline#extensions#whitespace#enabled = 1
 
 """ set EchoFunc to display in airline_section_c
 call airline#parts#define('echofunc', {'function': 'EchoFuncGetStatusLine','accent': 'yellow',})
-let g:airline_section_c = airline#section#create(['%<', 'file', ' ', 'readonly', 'echofunc'])
+"let g:airline_section_c = airline#section#create(['%<', 'file', ' ', 'readonly', 'echofunc'])
+let g:airline_section_c = airline#section#create(['echofunc', '%<'])
 let g:EchoFuncShowOnStatus=1
+
+""" Set vim-gitgutter colors
+let g:gitgutter_sign_column_always = 1
+highlight SignColumn ctermbg=235
+highlight GitGutterAdd ctermfg=2 ctermbg=235
+highlight GitGutterChange ctermfg=3 ctermbg=235
+highlight GitGutterChangeDelete ctermfg=3 ctermbg=235
+highlight GitGutterDelete ctermfg=1 ctermbg=235
 
 
 """ Yank Ring
