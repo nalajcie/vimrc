@@ -19,7 +19,7 @@ vim-expand-region https://github.com/terryma/vim-expand-region
 #--- Globals ----------------------------------------------
 PLUGINS = """
 ack.vim https://github.com/mileszs/ack.vim
-bufexplorer https://github.com/corntrace/bufexplorer
+bufexplorer https://github.com/jlanzarotta/bufexplorer
 ctrlp.vim https://github.com/kien/ctrlp.vim
 echofunc https://github.com/mbbill/echofunc
 mayansmoke https://github.com/vim-scripts/mayansmoke
