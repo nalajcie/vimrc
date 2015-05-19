@@ -1,3 +1,5 @@
+#!/bin/sh
+
 cd ~/.vim_runtime
 
 echo 'set runtimepath+=~/.vim_runtime
@@ -14,17 +16,17 @@ endtry' > ~/.vimrc
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
 
-# get special fonts for airline
+# get special fonts for airline - works automatically only for linux!
 mkdir ~/.fonts
 cd ~/.fonts
-wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf
+wget --no-check-certificate https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf
 # you might be root to do it!
 fc-cache -vf ~/.fonts/
 
 mkdir -p ~/.config/fontconfig/conf.d/
 cd ~/.config/fontconfig/conf.d/
-wget https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
+wget --no-check-certificate https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
 
-#DONE!
+echo "DONE!"
 
 
