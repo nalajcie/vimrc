@@ -21,6 +21,7 @@ let g:EchoFuncShowOnStatus=1
 
 """ Set vim-gitgutter colors
 let g:gitgutter_sign_column_always = 1
+highlight LineNr ctermbg=235
 highlight SignColumn ctermbg=235
 highlight GitGutterAdd ctermfg=2 ctermbg=235
 highlight GitGutterChange ctermfg=3 ctermbg=235
@@ -45,6 +46,11 @@ set wildmenu
 
 " Add default locations to path
 set path+=.,~/src/demo,/usr/local/include,/usr/include
+
+" allow Syntastic to search includes in our current "main" include build dir:
+let g:syntastic_c_include_dirs = ['/home/wm/src/demo/build/prime-current-standalone/include/', '../include']
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " Add CScope
 source ~/.vim_runtime/vimrcs/cscope_maps.vim
