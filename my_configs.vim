@@ -1,3 +1,5 @@
+colorscheme desert
+
 """ vim-airline configuration
 let g:airline_theme='badwolf'
 
