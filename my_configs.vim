@@ -13,13 +13,15 @@ let g:airline#extensions#tabline#show_buffers = 0
 let g:airline#extensions#whitespace#enabled = 1
 
 
+""" FIXME
 """ set EchoFunc to display in airline_section_c
 call airline#parts#define('echofunc', {'function': 'EchoFuncGetStatusLine','accent': 'yellow',})
 "let g:airline_section_c = airline#section#create(['%<', 'file', ' ', 'readonly', 'echofunc'])
 let g:airline_section_c = airline#section#create(['echofunc', '%<'])
 let g:EchoFuncShowOnStatus=1
 
-""" Set vim-gitgutter colors
+""" Enable by default and set vim-gitgutter colors
+let g:gitgutter_enabled=1
 let g:gitgutter_sign_column_always = 1
 highlight LineNr ctermbg=235
 highlight SignColumn ctermbg=235
