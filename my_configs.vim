@@ -59,3 +59,7 @@ let g:syntastic_auto_loc_list = 0
 
 " Add CScope
 source ~/.vim_runtime/vimrcs/cscope_maps.vim
+
+" improve session management
+set ssop-=options
+set ssop-=blank
