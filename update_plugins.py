@@ -57,6 +57,7 @@ vim-flake8 https://github.com/nvie/vim-flake8
 vim-pug https://github.com/digitaltoad/vim-pug
 vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
 lightline.vim https://github.com/itchyny/lightline.vim
+vim-better-whitespace https://github.com/ntpeters/vim-better-whitespace
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
