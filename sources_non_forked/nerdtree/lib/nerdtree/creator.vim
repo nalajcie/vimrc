@@ -42,11 +42,6 @@ endfunction
 "name: the name of a bookmark or a directory
 function! s:Creator.createTabTree(name)
     let path = self._pathForString(a:name)
-    
-    "abort if exception was thrown (bookmark/dir doesn't exist)
-    if empty(path)
-        return
-    endif
 
     "abort if exception was thrown (bookmark/dir doesn't exist)
     if empty(path)
