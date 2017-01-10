@@ -63,3 +63,6 @@ source ~/.vim_runtime/vimrcs/cscope_maps.vim
 " improve session management
 set ssop-=options
 set ssop-=blank
+
+" enable modeline
+set modeline
