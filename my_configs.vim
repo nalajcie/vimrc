@@ -41,6 +41,9 @@ map <leader>y :YRShow<cr>
 " Paste toggle - when pasting something in, don't indent.
 set pastetoggle=<F3>
 
+" use modeline if defined in opened file
+set modeline
+
 " Remove indenting on empty lines
 map <F2> :%s/\s*$//g<cr>:noh<cr>''
 
@@ -64,5 +67,3 @@ source ~/.vim_runtime/vimrcs/cscope_maps.vim
 set ssop-=options
 set ssop-=blank
 
-" enable modeline
-set modeline
