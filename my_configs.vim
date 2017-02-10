@@ -59,6 +59,7 @@ let g:syntastic_c_include_dirs = ['/home/wm/src/demo/build/prime-current-standal
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_auto_loc_list = 0
+let g:syntastic_python_checkers = ['pylint']
 
 " Add CScope
 source ~/.vim_runtime/vimrcs/cscope_maps.vim
