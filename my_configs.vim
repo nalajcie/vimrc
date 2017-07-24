@@ -60,6 +60,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_python_checkers = ['pylint']
+let g:syntastic_sh_shellcheck_args = "-x"
 
 " Add CScope
 source ~/.vim_runtime/vimrcs/cscope_maps.vim
