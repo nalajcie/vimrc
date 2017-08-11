@@ -48,17 +48,15 @@ vim-surround https://github.com/tpope/vim-surround
 vim-multiple-cursors https://github.com/terryma/vim-multiple-cursors
 vim-fugitive https://github.com/tpope/vim-fugitive
 goyo.vim https://github.com/junegunn/goyo.vim
-vim-zenroom2 https://github.com/amix/vim-zenroom2
 vim-repeat https://github.com/tpope/vim-repeat
 vim-commentary https://github.com/tpope/vim-commentary
-vim-go https://github.com/fatih/vim-go
-vim-gitgutter https://github.com/airblade/vim-gitgutter
 gruvbox https://github.com/morhetz/gruvbox
 vim-flake8 https://github.com/nvie/vim-flake8
 vim-pug https://github.com/digitaltoad/vim-pug
 vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
 lightline.vim https://github.com/itchyny/lightline.vim
 vim-better-whitespace https://github.com/ntpeters/vim-better-whitespace
+cscope_dynamic https://github.com/erig0/cscope_dynamic
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'

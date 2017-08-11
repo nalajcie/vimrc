@@ -15,7 +15,6 @@ let g:airline#extensions#tabline#show_buffers = 0
 let g:airline#extensions#whitespace#enabled = 1
 
 
-""" FIXME
 """ set EchoFunc to display in airline_section_c
 call airline#parts#define('echofunc', {'function': 'EchoFuncGetStatusLine','accent': 'yellow',})
 "let g:airline_section_c = airline#section#create(['%<', 'file', ' ', 'readonly', 'echofunc'])
@@ -24,17 +23,13 @@ let g:EchoFuncShowOnStatus=1
 
 """ Enable by default and set vim-gitgutter colors
 let g:gitgutter_enabled=1
-let g:gitgutter_sign_column_always = 1
+set signcolumn=yes
 highlight LineNr ctermbg=235
 highlight SignColumn ctermbg=235
 highlight GitGutterAdd ctermfg=2 ctermbg=235
 highlight GitGutterChange ctermfg=3 ctermbg=235
 highlight GitGutterChangeDelete ctermfg=3 ctermbg=235
 highlight GitGutterDelete ctermfg=1 ctermbg=235
-
-
-""" Yank Ring
-map <leader>y :YRShow<cr>
 
 """ MISC
 
@@ -64,6 +59,7 @@ let g:syntastic_sh_shellcheck_args = "-x"
 
 " Add CScope
 source ~/.vim_runtime/vimrcs/cscope_maps.vim
+nmap <F12> <Plug>CscopeDBInit
 
 " improve session management
 set ssop-=options
