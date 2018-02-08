@@ -65,3 +65,4 @@ nmap <F12> <Plug>CscopeDBInit
 set ssop-=options
 set ssop-=blank
 
+map <leader>k :set noexpandtab ts=8 sw=8<cr>
