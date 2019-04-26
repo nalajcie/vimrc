@@ -135,19 +135,13 @@ nnoremap <silent> <leader>z :Goyo<cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Vim-go
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:go_fmt_command = "goimports"
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Python
 let g:syntastic_python_checkers=['pylint']
 
 " Javascript
-let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_checkers = ['xo', 'eslint']
 
 " Go
 let g:syntastic_auto_loc_list = 1

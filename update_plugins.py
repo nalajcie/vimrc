@@ -56,6 +56,7 @@ vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
 lightline.vim https://github.com/itchyny/lightline.vim
 vim-better-whitespace https://github.com/ntpeters/vim-better-whitespace
 cscope_dynamic https://github.com/erig0/cscope_dynamic
+vim-xo https://github.com/xojs/vim-xo
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
