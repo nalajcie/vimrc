@@ -23,7 +23,13 @@ let g:EchoFuncShowOnStatus=1
 
 """ Enable by default and set vim-gitgutter colors
 let g:gitgutter_enabled=1
+
+" available since VIM 7.4.2201
+try
 set signcolumn=yes
+catch
+endtry
+
 highlight LineNr ctermbg=235
 highlight SignColumn ctermbg=235
 highlight GitGutterAdd ctermfg=2 ctermbg=235
