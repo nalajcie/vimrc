@@ -72,3 +72,4 @@ set ssop-=options
 set ssop-=blank
 
 map <leader>k :set noexpandtab ts=8 sw=8<cr>
+map <leader>kk :set expandtab ts=4 sw=4<cr>
