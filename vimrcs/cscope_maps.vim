@@ -43,6 +43,12 @@ if has("cscope")
     " else add the database pointed to by environment variable
     elseif $CSCOPE_DB != ""
         cs add $CSCOPE_DB
+    elseif filereadable("../cscope.out")
+        silent! cs add ../cscope.out
+        silent! set csre
+    elseif filereadable("../../cscope.out")
+        silent! cs add ../../cscope.out
+        silent! set csre
     endif
 
     " show msg when any other cscope db added
