@@ -22,6 +22,7 @@ nginx.vim https://github.com/vim-scripts/nginx.vim
 vim-colors-solarized https://github.com/altercation/vim-colors-solarized
 vim-pyte https://github.com/therubymug/vim-pyte
 vim-expand-region https://github.com/terryma/vim-expand-region
+lightline.vim https://github.com/itchyny/lightline.vim
 """
 
 #--- Globals ----------------------------------------------
@@ -50,10 +51,11 @@ vim-commentary https://github.com/tpope/vim-commentary
 gruvbox https://github.com/morhetz/gruvbox
 vim-flake8 https://github.com/nvie/vim-flake8
 vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
-lightline.vim https://github.com/itchyny/lightline.vim
 vim-better-whitespace https://github.com/ntpeters/vim-better-whitespace
 cscope_dynamic https://github.com/erig0/cscope_dynamic
 vim-xo https://github.com/xojs/vim-xo
+vim-airline https://github.com/vim-airline/vim-airline
+vim-airline-themes https://github.com/vim-airline/vim-airline-themes
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
