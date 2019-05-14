@@ -14,6 +14,9 @@ let g:airline#extensions#tabline#show_buffers = 0
 
 let g:airline#extensions#whitespace#enabled = 1
 
+" mode is visible in airline
+set noshowmode
+
 
 """ set EchoFunc to display in airline_section_c
 call airline#parts#define('echofunc', {'function': 'EchoFuncGetStatusLine','accent': 'yellow',})
