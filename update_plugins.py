@@ -23,6 +23,10 @@ vim-colors-solarized https://github.com/altercation/vim-colors-solarized
 vim-pyte https://github.com/therubymug/vim-pyte
 vim-expand-region https://github.com/terryma/vim-expand-region
 lightline.vim https://github.com/itchyny/lightline.vim
+snipmate-snippets https://github.com/scrooloose/snipmate-snippets
+vim-snipmate https://github.com/garbas/vim-snipmate
+vim-snippets https://github.com/honza/vim-snippets
+gruvbox https://github.com/morhetz/gruvbox
 """
 
 #--- Globals ----------------------------------------------
@@ -33,7 +37,6 @@ bufexplorer https://github.com/corntrace/bufexplorer
 ctrlp.vim https://github.com/ctrlpvim/ctrlp.vim
 nerdtree https://github.com/scrooloose/nerdtree
 open_file_under_cursor.vim https://github.com/amix/open_file_under_cursor.vim
-snipmate-snippets https://github.com/scrooloose/snipmate-snippets
 terminalkeys.vim https://github.com/nacitar/terminalkeys.vim
 tlib https://github.com/vim-scripts/tlib
 vim-addon-mw-utils https://github.com/MarcWeber/vim-addon-mw-utils
@@ -41,14 +44,11 @@ vim-gitgutter https://github.com/airblade/vim-gitgutter
 vim-indent-object https://github.com/michaeljsmith/vim-indent-object
 vim-less https://github.com/groenewege/vim-less
 vim-markdown https://github.com/tpope/vim-markdown
-vim-snipmate https://github.com/garbas/vim-snipmate
-vim-snippets https://github.com/honza/vim-snippets
 vim-surround https://github.com/tpope/vim-surround
 vim-multiple-cursors https://github.com/terryma/vim-multiple-cursors
 vim-fugitive https://github.com/tpope/vim-fugitive
 vim-repeat https://github.com/tpope/vim-repeat
 vim-commentary https://github.com/tpope/vim-commentary
-gruvbox https://github.com/morhetz/gruvbox
 vim-flake8 https://github.com/nvie/vim-flake8
 vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
 vim-better-whitespace https://github.com/ntpeters/vim-better-whitespace
