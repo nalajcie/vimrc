@@ -100,6 +100,9 @@ let g:syntastic_python_checkers=['pylint']
 " Javascript
 let g:syntastic_javascript_checkers = ['xo', 'eslint']
 
+" C
+let g:syntastic_c_checkers = ['gcc', 'clang_tidy']
+
 " Go
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
