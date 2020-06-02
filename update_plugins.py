@@ -56,6 +56,7 @@ cscope_dynamic https://github.com/erig0/cscope_dynamic
 vim-xo https://github.com/xojs/vim-xo
 vim-airline https://github.com/vim-airline/vim-airline
 vim-airline-themes https://github.com/vim-airline/vim-airline-themes
+octave.vim https://github.com/tranvansang/octave.vim
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
