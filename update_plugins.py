@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 try:
     import concurrent.futures as futures
 except ImportError:
@@ -45,7 +45,7 @@ vim-indent-object https://github.com/michaeljsmith/vim-indent-object
 vim-less https://github.com/groenewege/vim-less
 vim-markdown https://github.com/tpope/vim-markdown
 vim-surround https://github.com/tpope/vim-surround
-vim-multiple-cursors https://github.com/terryma/vim-multiple-cursors
+vim-visual-multi https://github.com/mg979/vim-visual-multi
 vim-fugitive https://github.com/tpope/vim-fugitive
 vim-repeat https://github.com/tpope/vim-repeat
 vim-commentary https://github.com/tpope/vim-commentary
