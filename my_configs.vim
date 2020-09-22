@@ -62,6 +62,10 @@ map <F2> :%s/\s*$//g<cr>:noh<cr>''
 set wildmode=longest,list,full
 set wildmenu
 
+" increase initial tabs page maximum
+set tabpagemax=100
+
+
 " Add default locations to path
 set path+=.,~/src/demo,/usr/local/include,/usr/include
 
@@ -83,3 +87,24 @@ set ssop-=blank
 
 map <leader>k :set noexpandtab ts=8 sw=8<cr>
 map <leader>kk :set expandtab ts=4 sw=4<cr>
+
+" add custom TODO hilighting
+
+if has("autocmd")
+  " Highlight TODO, FIXME, NOTE, etc.
+  if v:version > 701
+    autocmd Syntax * call matchadd('Todo',  '\W\zs\(TODO\|FIXME\|CHANGED\|XXX\|BUG\|HACK\|PRIME_14\)')
+    "autocmd Syntax * call matchadd('Debug', '\W\zs\(NOTE\|INFO\|IDEA\)')
+  endif
+endif
+
+
+" add basic clang-format support
+if has('python')
+  autocmd FileType c map <C-I> :pyf ~/.vim_runtime/tools/clang-format.py<cr>
+  autocmd FileType c imap <C-I> <c-o>:pyf ~/.vim_runtime/tools/clang-format.py<cr>
+elseif has('python3')
+  autocmd FileType c map <C-I> :py3f ~/.vim_runtime/tools/clang-format.py<cr>
+  autocmd FileType c imap <C-I> <c-o>:py3f ~/.vim_runtime/tools/clang-format.py<cr>
+endif
+
